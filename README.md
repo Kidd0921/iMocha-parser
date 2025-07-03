@@ -48,3 +48,17 @@ java parser
 - Invalid or incomplete lines are skipped safely
 
 - Output report is overwritten every time
+
+## Test Cases Covered
+
+| Test Case | Description                                                                 |
+|-----------|-----------------------------------------------------------------------------|
+| TC1       | One record: phone call (`P`) only                                           |
+| TC2       | One record: SMS (`S`) only                                                  |
+| TC3       | One record: MMS (`M`) only                                                  |
+| TC4       | Multiple records for the **same account number**                            |
+| TC5       | Multiple records for the **same call type**                                 |
+| TC6       | Records spanning **different dates** (`YYYYMMDD` based on `STT_TIME`)       |
+| TC7       | Input lines **less than 74 characters** are **skipped safely**              |
+| TC8       | Correct **accumulation** of costs by account, call type, and date           |
+| TC9       | `report.txt` is correctly **overwritten** with every run                    |
