@@ -1,0 +1,13 @@
+=== Total Cost per Account ===
+46002255: 75 sen
+46003333: 20 sen
+46001122: 55 sen
+
+=== Total Cost per Call Type ===
+P: 130 sen
+M: 20 sen
+
+=== Total Cost per Day ===
+20201003: 40 sen
+20201002: 20 sen
+20201001: 90 sen
